@@ -12,7 +12,7 @@ body
 	text-align:center;
 	font-size:12em;
 	color:white;
-/*	font-family: 'Bowlby One', cursive;*/
+	/*	font-family: 'Bowlby One', cursive;*/
 	font-family: 'Francois One', sans-serif;
 }
 
@@ -40,21 +40,32 @@ body
 	position:relative;
 }
 
+.navbar-inner .container
+{
+	position:relative;
+	background-color:red;
+	max-width:100%;
+}
 
+
+.container .nav li a
+{
+	font-size:4em;
+}
 
 /*.media-grid
 {
-	background-color:red; 
-	padding:2em;
-	height:40em;
-	position:relative;
+background-color:red; 
+padding:2em;
+height:40em;
+position:relative;
 }
 
 .media-grid .thumbnails
 {
-	position:relative;
-	background-color:blue;
-	width:50%;
+position:relative;
+background-color:blue;
+width:50%;
 
 }*/
 
