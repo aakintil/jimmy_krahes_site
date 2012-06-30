@@ -2,7 +2,7 @@
 body
 {
 	background-color: black;
-	background-image: url('../images/main_bg.jpeg');
+	background-image: url('../img/main_bg.jpeg');
 	background-repeat: no-repeat;
 	background-position: top center;
 }
@@ -39,6 +39,9 @@ body
 	margin-top:3em;
 	position:relative;
 }
+
+
+
 /*.media-grid
 {
 	background-color:red; 
