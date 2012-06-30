@@ -20,3 +20,38 @@ body
 {
 	border: none !important;
 }
+
+.row
+{
+	float:left;
+	padding:20px;
+	width:30%;
+}
+
+.hero-unit
+{
+	height:50em;
+}
+
+.pic-grid
+{
+	padding:30px;
+	margin-top:3em;
+	position:relative;
+}
+/*.media-grid
+{
+	background-color:red; 
+	padding:2em;
+	height:40em;
+	position:relative;
+}
+
+.media-grid .thumbnails
+{
+	position:relative;
+	background-color:blue;
+	width:50%;
+
+}*/
+
