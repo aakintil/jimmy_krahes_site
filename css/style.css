@@ -11,9 +11,21 @@ body
 {
 	text-align:center;
 	font-size:12em;
-	color:white;
+	color:black;
 	/*	font-family: 'Bowlby One', cursive;*/
-	font-family: 'Francois One', sans-serif;
+	/*	font-family: 'Francois One', sans-serif;*/
+	/*		font-family: 'Ubuntu', sans-serif;*/
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	padding: 60px;
+	position:relative;
+	top:-50px;
+	margin-bottom: -60px;
+	background-color: #EEE;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+
 }
 
 .page-header
@@ -50,8 +62,14 @@ body
 
 .container .nav li a
 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	position:relative;
+	left:60px;
+	/*	padding:10px !important;*/
+	margin-right:70px;
 	font-size:4em;
 }
+
 
 /*.media-grid
 {
