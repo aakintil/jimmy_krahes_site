@@ -3,8 +3,10 @@ body
 {
 	background-color: black;
 	background-image: url('../img/main_bg.jpeg');
+	background-size: 250%;
 	background-repeat: no-repeat;
 	background-position: top center;
+	font-family: 'Open Sans Condensed', sans-serif !important;
 }
 
 .page-header h1
@@ -42,7 +44,7 @@ body
 
 .hero-unit
 {
-	height:50em;
+	height:70em;
 }
 
 .pic-grid
@@ -55,35 +57,46 @@ body
 .navbar-inner .container
 {
 	position:relative;
-	background-color:red;
 	max-width:100%;
 }
 
 
 .container .nav li a
 {
-	font-family: 'Open Sans Condensed', sans-serif;
 	position:relative;
 	left:60px;
-	/*	padding:10px !important;*/
 	margin-right:70px;
 	font-size:4em;
 }
 
-
-/*.media-grid
+.thumbnail > img
 {
-background-color:red; 
-padding:2em;
-height:40em;
-position:relative;
+	opacity:0.6;
 }
 
-.media-grid .thumbnails
+a.thumbnail:hover
 {
-position:relative;
-background-color:blue;
-width:50%;
+		  border-color: black !important;
+}
+.thumbnail > img:hover
+{
+	opacity:1;
+}
 
-}*/
+.footer
+{
+	margin-top:45em;
+	padding: 10px 0;
+	text-align:center;
+	padding: 60px;
+}
 
+.footer a
+{
+	font-size:1em;
+}
+
+.navbar + .hero-unit
+{
+	height:100px !important;
+}
