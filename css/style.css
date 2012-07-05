@@ -6,24 +6,25 @@ body
 	background-size: 250%;
 	background-repeat: no-repeat;
 	background-position: top center;
-	font-family: 'Open Sans Condensed', sans-serif !important;
+/*	font-family: 'Open Sans Condensed', sans-serif !important;*/
+		font-family: 'Francois One', sans-serif !important;
 }
 
 .page-header h1
 {
 	text-align:center;
 	font-size:12em;
-	color:black;
+	color:#eee;
 	/*	font-family: 'Bowlby One', cursive;*/
-	/*	font-family: 'Francois One', sans-serif;*/
+		font-family: 'Francois One', sans-serif;
 	/*		font-family: 'Ubuntu', sans-serif;*/
-	font-family: 'Open Sans Condensed', sans-serif;
+/*	font-family: 'Open Sans Condensed', sans-serif;*/
 	font-weight: bold;
 	padding: 60px;
 	position:relative;
 	top:-50px;
 	margin-bottom: -60px;
-	background-color: #EEE;
+/*	background-color: #EEE;*/
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
@@ -44,7 +45,14 @@ body
 
 .hero-unit
 {
-	height:70em;
+	max-height:860px;
+	color:#eee;
+	background-color: transparent !important;
+}
+
+h1
+{
+		font-family: 'Francois One', sans-serif !important;
 }
 
 .pic-grid
@@ -58,11 +66,15 @@ body
 {
 	position:relative;
 	max-width:100%;
+	border-bottom: 1px dashed #eee;
+		padding:10px;
+	border-top: 1px dashed #eee;
 }
 
 
 .container .nav li a
 {
+	font-family: 'Open Sans Condensed', sans-serif !important;
 	position:relative;
 	left:60px;
 	margin-right:70px;
@@ -76,7 +88,7 @@ body
 
 a.thumbnail:hover
 {
-		  border-color: black !important;
+	border-color: black !important;
 }
 .thumbnail > img:hover
 {
@@ -85,7 +97,7 @@ a.thumbnail:hover
 
 .footer
 {
-	margin-top:45em;
+	margin-top:35em;
 	padding: 10px 0;
 	text-align:center;
 	padding: 60px;
