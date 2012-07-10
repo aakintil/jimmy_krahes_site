@@ -3,11 +3,11 @@ body
 {
 	background-color: black;
 	background-image: url('../img/main_bg.jpeg');
-	background-size: 250%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: top center;
-/*	font-family: 'Open Sans Condensed', sans-serif !important;*/
-		font-family: 'Francois One', sans-serif !important;
+	/*	font-family: 'Open Sans Condensed', sans-serif !important;*/
+	font-family: 'Francois One', sans-serif !important;
 }
 
 .page-header h1
@@ -16,15 +16,15 @@ body
 	font-size:12em;
 	color:#eee;
 	/*	font-family: 'Bowlby One', cursive;*/
-		font-family: 'Francois One', sans-serif;
-	/*		font-family: 'Ubuntu', sans-serif;*/
-/*	font-family: 'Open Sans Condensed', sans-serif;*/
+	font-family: 'Francois One', sans-serif;
+	/*	font-family: 'Ubuntu', sans-serif;*/
+	/*	font-family: 'Open Sans Condensed', sans-serif;*/
 	font-weight: bold;
 	padding: 60px;
 	position:relative;
 	top:-50px;
 	margin-bottom: -60px;
-/*	background-color: #EEE;*/
+	/*	background-color: #EEE;*/
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
@@ -45,6 +45,9 @@ body
 
 .hero-unit
 {
+	top:-100px;
+	width:100% !important;
+	position:relative;
 	max-height:860px;
 	color:#eee;
 	background-color: transparent !important;
@@ -52,23 +55,24 @@ body
 
 h1
 {
-		font-family: 'Francois One', sans-serif !important;
+	font-family: 'Francois One', sans-serif !important;
 }
 
 .pic-grid
 {
 	padding:30px;
-	margin-top:3em;
+	margin-top:7em;
 	position:relative;
 }
 
 .navbar-inner .container
 {
 	position:relative;
-	max-width:100%;
+	width:100%;
 	border-bottom: 1px dashed #eee;
-		padding:10px;
+	padding:10px;
 	border-top: 1px dashed #eee;
+	margin-bottom:100px;
 }
 
 
@@ -97,7 +101,7 @@ a.thumbnail:hover
 
 .footer
 {
-	margin-top:35em;
+	margin-top:15em;
 	padding: 10px 0;
 	text-align:center;
 	padding: 60px;
@@ -105,10 +109,19 @@ a.thumbnail:hover
 
 .footer a
 {
-	font-size:1em;
+	font-size:2em;
 }
 
-.navbar + .hero-unit
+.navbar + h1
 {
-	height:100px !important;
+
+	top:50px;
+	position:relative;
+	margin-bottom: -40px;
+	font-size: 60px;
+	line-height: 1;
+	color: #eee;
+	letter-spacing: -1px;
 }
+
+
