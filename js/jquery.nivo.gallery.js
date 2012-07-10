@@ -14,12 +14,12 @@
     $.nivoGallery = function(element, options){
 
         var defaults = {
-            pauseTime: 2000,
-            animSpeed: 500,
+            pauseTime: 3000,
+            animSpeed: 300,
             effect: 'fade',
             startPaused: false,
             directionNav: true,
-            progressBar: false,
+            progressBar: true,
             galleryLoaded: function(){},
             beforeChange: function(index, slide, paused){},
             afterChange: function(index, slide, paused){},
