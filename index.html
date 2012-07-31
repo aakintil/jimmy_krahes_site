@@ -20,7 +20,7 @@
 
 
 
-<!-- Javascript Files -->
+
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
 <!--[if IE]>
@@ -30,6 +30,20 @@
 
 <script src="scripts/modernizr-1.7.min.js"></script>
 
+<!-- Javascript Files -->
+<link rel="stylesheet" type="text/css" href="css/shadowbox.css">
+<script type="text/javascript" src="js/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init({
+	handleOversize:     "drag",
+    displayNav:         true,
+    handleUnsupported:  "remove",
+    handleOversize: "drag",
+	overlayOpacity: 0.8,
+    modal: false
+
+});
+</script>
 
 <!-- Google Web Font -->
 <link href='http://fonts.googleapis.com/css?family=Bowlby+One|Francois+One' rel='stylesheet' type='text/css'>
@@ -41,6 +55,7 @@
 	<div class = "container">
 		<div class="page-header">
 			<h1>J. Krahe</h1>
+
 		</div>
 
 		<div class="navbar">
@@ -127,7 +142,8 @@
 				<div class="row">
 					<ul class="thumbnails">
 						<li class="span3">
-							<a href="#" class="thumbnail">
+					
+							<a href="img/logo05.jpg" rel="shadowbox" class="thumbnail">
 								<img src="img/logo05.jpg" alt="">
 							</a>
 						</li>
@@ -137,9 +153,10 @@
 				<div class="row">
 					<ul class="thumbnails">
 						<li class="span3">
-							<a href="#" class="thumbnail">
+							<a href="http://placehold.it/260x180" rel="shadowbox" class="thumbnail">
 								<img src="http://placehold.it/260x180" alt="">
 							</a>
+	
 						</li>
 					</ul>
 				</div>
