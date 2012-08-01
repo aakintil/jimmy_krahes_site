@@ -88,6 +88,9 @@ h1
 .thumbnail > img
 {
 	opacity:0.6;
+	transition: opacity .50s ease-in-out;
+	   -moz-transition: opacity .50s ease-in-out;
+	   -webkit-transition: opacity .50s ease-in-out;
 }
 
 a.thumbnail:hover
@@ -97,6 +100,9 @@ a.thumbnail:hover
 .thumbnail > img:hover
 {
 	opacity:1;
+	transition: opacity .50s ease-in-out;
+	   -moz-transition: opacity .50s ease-in-out;
+	   -webkit-transition: opacity .50s ease-in-out;
 }
 
 .footer
@@ -124,4 +130,12 @@ a.thumbnail:hover
 	letter-spacing: -1px;
 }
 
+/*li.span3 a*/
+{
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-moz-transform:rotate(90deg); /* Firefox */
+	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+	-o-transform:rotate(90deg); /* Opera */
+}
 
